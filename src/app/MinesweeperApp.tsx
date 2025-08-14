@@ -30,7 +30,7 @@ export default function MinesweeperApp() {
             resetBoard={resetBoard}
           />
         </div>
-        <div className="flex flex-col bg-slate-800 py-4 px-2 gap-4 rounded-sm">
+        <div className="flex flex-col bg-slate-800 p-2 gap-2 rounded-sm">
           <Stats
             flagsLeft={flagsLeft}
             time={time}
